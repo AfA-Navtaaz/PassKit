@@ -1,0 +1,114 @@
+.container{
+  height:50%;
+  width:30%;
+  min-width:370px;
+  gap:10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(154, 154, 231);
+  box-shadow: rgb(60, 55, 65) 5px 5px 5px;
+
+}
+
+#password{
+  width: 18vw;
+  min-width:300px;
+  height:5vh;
+  font-size: x-large;
+}
+#title{
+  width:18vw;
+  min-width:300px;
+  height:5vh;
+  font-size: x-large;
+}
+
+label{
+  color:white;
+  font-size: x-large;
+  font-weight: 600;
+}
+.passwordlist{
+  width:50%;
+  height:50%;
+
+}
+.passwordlist ul {
+
+  
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  gap:15px;
+  justify-content: center;
+}
+.passwordlist li{
+  text-align: center;
+  border:2px solid black;
+  border-radius:5px;
+  background-color:rgb(154, 154, 231);
+  list-style: none;
+  height:5vh;
+  width:80vw;
+  font-size: x-large;
+  font-weight:700;
+  font-family:sans-serif;
+
+  
+
+}
+
+.eye-icon :hover{
+  cursor:pointer;
+}
+button{
+  cursor:pointer;
+  border:1px solid black;
+  border-radius:5px;
+  height:30px;
+  background-color: chartreuse;
+
+}
+.submit{
+  cursor:pointer;
+  border:1px solid black;
+  border-radius:5px;
+  height:40px;
+  width:100px;
+  font-weight:500;
+  margin-top:10px;
+  background-color: rgb(235, 182, 37);
+}
+.eye-icon{
+  background-color: rgb(181, 181, 226);
+  margin:0.1vw;
+  width:40px;
+}
+
+.eye-icon-none{
+  display:none;
+}
+
+.navbar{
+  width:100%;
+  /* display:flex; */
+  background-color: rgb(154, 154, 231);
+  position:fixed;
+  top:0;
+  height:50px;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+input{
+  border:2px solid black;
+  border-radius: 5px;
+}
+
+.about{
+  padding:5vw;
+}
